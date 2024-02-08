@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images.jpg" type="image/x-icon">
+    <title>figures</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #00000018;
+        }
+        .wh {
+            color: transparent;
+        }
+        .qwerty {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            line-height: 55%;
+        }
+        input[type="number"], #btn {
+            padding: 10px;
+        }
+        input[type="number"] {
+            font-size: 20px;
+        }
+        #btn {
+            cursor: pointer;
+            background: #6d6dff;
+            color: #fff;
+            transition: .4s;
+        }
+        #btn:hover {
+            background: #3434ff;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" placeholder="size...">
+    <button id="btn">click</button>
+    <div class="qwerty">
+        <div class="box"></div>
+    </div>
+    <script src="figures.js"></script>
+    <script src="numeric.js"></script>
+    <script src="characteric.js"></script>
+    <script src="high.js"></script>
+</body>
+</html>
